@@ -13,16 +13,6 @@ public class Main {
         Shark[] sharks = new Shark[animals.length]; //animals.length - кол-во
         Turtle[] turtles = new Turtle[animals.length];
         Eagle[] eagles = new Eagle[animals.length];
-        //копирование
-//        for(int i=0; i< animals.length; i++){
-//            sharks[i] = (Shark) animals[i];
-//        }
-//        for(int j=0; j< animals.length; j++){
-//            turtles[j] = (Turtle) animals[j];
-//        }
-//        for(int k=0; k< animals.length; k++){
-//            eagles[k] = (Eagle) animals[k];
-//        }
         int s=0, t=0, e=0; //счетчик
         for(Animal q : animals){
             if(q.getClass() == Shark.class){
